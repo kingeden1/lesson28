@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling</title>
+</head>
+<body>
+    <h3>Error Handling with JS</h3>
+    <p>Error Handling by using <b>try</b>and <b>catch</b>block.</p>
+    <p id="err-mesg"></p>
+    <script>
+        try{
+            addalert("welcome to code!");
+
+        } catch (error) {
+            document.getElementById("err-mesg").innerHTML = error.messege;
+        }
+    </script>
+</body>
+</html>
